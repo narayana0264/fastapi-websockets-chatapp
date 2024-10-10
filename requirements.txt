@@ -1,0 +1,17 @@
+these need to be installed before running the main file
+fastapi
+uvicorn
+websocket
+
+
+
+
+To run the main.py file
+use this command:
+
+uvicorn main:app --reload
+
+
+This is a app, the randomly generates unique chat ID's and then when a person writes something, it gets updates in all the chat ID's.
+Reference
+https://www.youtube.com/watch?v=ADVsjLHevtY
